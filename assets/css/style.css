@@ -1,0 +1,32 @@
+h1 {
+    display: inline;
+}
+
+nav {
+    display: inline;
+    float: right;
+    float: top;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.about {
+    float: left;
+    width: 70%;
+}
+
+.bio {
+    display: inline;
+}
+
+.connect {
+    float: left;
+    width: 30%;
+}
+
+#headshot {
+    display: inline;
+}
