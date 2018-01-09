@@ -20,6 +20,7 @@ nav {
 
 .bio {
     display: inline;
+    vertical-align: top;
 }
 
 .connect {
@@ -29,4 +30,5 @@ nav {
 
 #headshot {
     display: inline;
+    float: left;
 }
