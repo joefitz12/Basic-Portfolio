@@ -4,21 +4,74 @@
 
 <head>
     <title>Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
 </head>
 
 <body>
-    <h1>Joe Fitzpatrick</h1>
-    
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
+    <header>
 
-    <h2>Portfolio</h2>
+        <nav>
+        
+            <h1>Joe Fitzpatrick</h1>
+        
+            <div class="nav-links">
+                <a href="index.html">About</a>
+                |
+                <a href="portfolio.html">Portfolio</a>
+                |
+                <!-- Need a way to include "|" without them just floating in the code?  -->
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+
+            <div class="gallery">
+                <div class="gallery-row">
+                    <img class="portfolio-left" src="assets/images/portfolio1.jpg" />
+                    <img class="portfolio-right" src="assets/images/portfolio2.jpg" />
+                </div>
+                <div class="gallery-row">
+                        <img class="portfolio-left" src="assets/images/portfolio3.jpg" />
+                        <img class="portfolio-right" src="assets/images/portfolio4.jpg" />
+                </div>
+                <div class="gallery-row">
+                        <img class="portfolio-left" src="assets/images/portfolio5.jpg" />
+                        <img class="portfolio-right" src="assets/images/portfolio6.jpg" />
+                </div>
+                <div class="gallery-row">
+                        <img class="portfolio-left" src="assets/images/portfolio7.jpg" />
+                        <img class="portfolio-right" src="assets/images/portfolio8.jpg" />
+                </div>
+                <div class="gallery-row">
+                        <img class="portfolio-left" src="assets/images/portfolio9.jpg" />
+                        <img class="portfolio-right" src="assets/images/portfolio10.jpg" />
+                </div>
+            </div>
 
     <!-- ?x2 gallery of images with portfolio images -->
+        </div>
+    </div>
+
+    <div class="connect">
+        <h3>Connect with Me</h3>
+            <img class="logo" src="assets/images/gitlab-logo.png" />
+            <img class="logo" src="assets/images/linkedin-logo.png" />
+            <img class="logo" src="assets/images/stack-overflow-logo.svg" />
+    </div>
+
+    <footer>
+        <p>&copy Copyright 2018 Joe Fitzpatrick</p>
+    </footer>
 
 </body>
 </html>
