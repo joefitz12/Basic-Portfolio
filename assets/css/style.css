@@ -68,7 +68,7 @@ a {
     color: #777;
 }
 
-#bio-links {
+a:hover, #bio-link {
     text-decoration: underline;
 }
 
@@ -118,9 +118,6 @@ footer {
     padding: 20px;
     background-color: #666;
     border-top: 3px solid #4aaaa5;
-}
-
-#contact-form {
 }
 
 input[type=text], select, textarea {
