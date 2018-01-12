@@ -68,6 +68,10 @@ a {
     color: #777;
 }
 
+#bio-links {
+    text-decoration: underline;
+}
+
 .logo {
     width: 70px;
     height: 70px;
@@ -171,4 +175,36 @@ input[type=submit]:hover {
     right: 0;
     height: 280px;
     width: 280px;
+}
+
+.portfolio-left-banner {
+    background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    width: 280px;
+    height: 70px;
+    left: 0;
+    bottom: 60px;
+}
+
+.portfolio-left-banner-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.portfolio-right-banner {
+    background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    width: 280px;
+    height: 70px;
+    right: 0;
+    bottom: 60px;
+}
+
+.portfolio-right-banner-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
 }
