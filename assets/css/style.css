@@ -68,6 +68,10 @@ a {
     color: #777;
 }
 
+#bio-links {
+    text-decoration: underline;
+}
+
 .logo {
     width: 70px;
     height: 70px;
