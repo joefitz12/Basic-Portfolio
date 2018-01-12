@@ -115,8 +115,9 @@ footer {
     position: fixed;
     bottom: 0;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-color: #666;
+    border-top: 3px solid #4aaaa5;
 }
 
 #contact-form {
